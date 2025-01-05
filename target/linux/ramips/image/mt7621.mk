@@ -1960,6 +1960,16 @@ define Device/meig_slt866
 endef
 TARGET_DEVICES += meig_slt866
 
+define Device/mercury_km08-708h
+  $(Device/nand)
+  $(Device/uimage-lzma-loader)
+  IMAGE_SIZE := 129280k
+  DEVICE_VENDOR := MERCURY
+  DEVICE_MODEL := KM08-708H
+  DEVICE_PACKAGES := kmod-mt7615-firmware kmod-usb3 kmod-usb-ledtrig-usbport
+endef
+TARGET_DEVICES += mercury_km08-708h
+
 define Device/mercusys_mr70x-v1
   $(Device/dsa-migration)
   $(Device/tplink-safeloader)
