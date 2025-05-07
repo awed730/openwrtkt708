@@ -72,7 +72,7 @@
 			phandle = <0x14>;
 			phy-mode = "rgmii";
 			reg = <0x00>;
-
+g
 			fixed-link {
 				full-duplex;
 				pause;
@@ -470,6 +470,8 @@
 				compatible = "mediatek,mt76";
 				mediatek,mtd-eeprom = <0x18 0x00>;
 				reg = <0x00 0x00 0x00 0x00 0x00>;
+				tx-power = <38>;
+
 			};
 		};
 
