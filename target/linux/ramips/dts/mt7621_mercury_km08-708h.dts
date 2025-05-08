@@ -470,7 +470,6 @@ g
 				compatible = "mediatek,mt76";
 				mediatek,mtd-eeprom = <0x18 0x00>;
 				reg = <0x00 0x00 0x00 0x00 0x00>;
-				tx-power = <38>;
 
 			};
 		};
